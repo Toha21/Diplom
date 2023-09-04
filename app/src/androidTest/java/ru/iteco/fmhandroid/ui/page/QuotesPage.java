@@ -18,7 +18,7 @@ public class QuotesPage {
 
     public static void openOrCloseFirstQuote() {
         Allure.step("Раскрыть/свернуть первую цитату");
-        openOrCloseFirstQuoteButton.perform(click());a
+        openOrCloseFirstQuoteButton.perform(click());
     }
 
     public static void checkThatFirstQuoteContentIsFull(String description) {
